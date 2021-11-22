@@ -10,8 +10,24 @@
 .color-02221f {
   color: #02221f;
 }
+.border-043c3877 {
+  border: 1px solid #043c3877 !important;
+}
+.border-ccc {
+  border-color: #ccc;
+}
+.app-navbar {
+  height: 5rem;
+}
 .app-tab {
   background: rgb(1, 26, 24);
+  top: calc(5rem);
+  height: 58px;
+}
+.sidebar {
+  height: calc(100vh - calc(5rem + 58px + 1.5rem));
+  overflow-y: auto;
+  top: calc(5rem + 58px + 1.5rem);
 }
 .app-tab .nav-tabs {
   border-bottom: 1px solid #043c38;
@@ -31,4 +47,61 @@
 }
 .app-tab .nav-tabs .nav-link {
   color: #495057;
+}
+.app-tab-content .card:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 22px 0 rgb(0 0 0 / 50%), 0 2px 30px 0 rgb(0 0 0 / 55%);
+  background-color: #0326248f;
+}
+.app-tab-content .group-action .btn-outline-light {
+  border: 1px solid rgba(245, 245, 245, 0.5);
+}
+.app-tab-content .group-action .btn-outline-light:hover {
+  border-color: #fff;
+  background: transparent;
+  color: #fff;
+}
+.app-tab-content .group-action .dropdown-item:focus,
+.app-tab-content .group-action .dropdown-item:hover {
+  color: #1e2125;
+  background-color: inherit;
+}
+.app-tab-content .btn-check:active + .btn-outline-light,
+.app-tab-content .btn-check:checked + .btn-outline-light,
+.app-tab-content .btn-outline-light.active,
+.app-tab-content .btn-outline-light.dropdown-toggle.show,
+.app-tab-content .btn-outline-light:active {
+  background-color: inherit;
+  color: inherit;
+}
+.heros .card {
+  border: 2px solid rgb(112, 75, 58);
+  border-radius: 17px;
+}
+.heros .card .hero-icon {
+  width: 35px;
+  border: 2px solid rgb(141, 109, 91);
+  height: 35px;
+  position: absolute;
+  line-height: 25px;
+  border-radius: 50%;
+  top: -2px;
+}
+.heros .card .hero-icon:first-child {
+  left: -2px;
+}
+.heros .card .hero-icon:not(:first-child) {
+  right: -2px;
+}
+.chet-img {
+  max-width: 198px;
+  margin: auto;
+}
+.heros .form-check-input {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.heros .form-check-input:checked {
+  background-color: #a0aec0;
+  border-color: #a0aec0;
 }

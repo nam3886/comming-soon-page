@@ -18,7 +18,14 @@
   </head>
   <body class="bg-041311">
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-light navbar-expand-lg sticky-top bg-02221f">
+    <nav
+      class="
+        app-navbar
+        navbar navbar-light navbar-expand-lg
+        sticky-top
+        bg-02221f
+      "
+    >
       <div class="container-fluid">
         <a class="navbar-brand text-light" href="#">
           <img
@@ -75,7 +82,7 @@
     <!-- END NAVIGATION -->
 
     <!-- TAB -->
-    <nav class="app-tab">
+    <nav class="app-tab sticky-top">
       <div class="nav nav-tabs" id="nav-tab" role="tablist">
         <button
           class="nav-link active px-5 py-3"
@@ -104,23 +111,622 @@
       </div>
     </nav>
 
-    <div class="tab-content text-light" id="nav-tabContent">
+    <div class="app-tab-content tab-content text-light" id="nav-tabContent">
       <div
-        class="tab-pane fade show active"
+        class="tab-pane fade show active heros"
         id="nav-home"
         role="tabpanel"
         aria-labelledby="nav-home-tab"
       >
-        Heros
+        <div class="container-fluid !direction !spacing px-4 pt-4 min-vh-100">
+          <div class="row">
+            <div
+              class="
+                col-sm-5 col-md-4 col-lg-3
+                d-none d-sm-block
+                sidebar
+                sticky-top
+              "
+            >
+              <div class="container-fluid !direction !spacing">
+                <div class="row">
+                  <div class="d-flex justify-content-between mb-4">
+                    <span>FILTER</span>
+                    <span>Clear Filter</span>
+                  </div>
+
+                  <form action="" method="get">
+                    <input
+                      class="
+                        form-control
+                        bg-transparent
+                        border border-2 border-ccc
+                        mb-4
+                      "
+                      placeholder="Search"
+                    />
+
+                    <div class="mb-4">PRICE (HE)</div>
+                    <div class="d-flex align-items-center mb-4">
+                      <input
+                        class="form-control bg-transparent border border-ccc"
+                        placeholder="Min"
+                      />
+                      <hr
+                        style="
+                          height: 2px;
+                          width: 25px;
+                          margin: 0 5px;
+                          background-color: rgb(160, 174, 192);
+                        "
+                      />
+                      <input
+                        class="form-control bg-transparent border border-ccc"
+                        placeholder="Max"
+                      />
+                    </div>
+
+                    <div class="mb-2">CLASS</div>
+                    <div class="d-flex flex-wrap justify-content-between mb-4">
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox1"
+                          value="option1"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox1">
+                          Knight
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                    </div>
+                    <div class="mb-2">CLASS</div>
+                    <div class="d-flex flex-wrap justify-content-between mb-4">
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox1"
+                          value="option1"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox1">
+                          Knight
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                    </div>
+                    <div class="mb-2">CLASS</div>
+                    <div class="d-flex flex-wrap justify-content-between mb-4">
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox1"
+                          value="option1"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox1">
+                          Knight
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                    </div>
+                    <div class="mb-2">CLASS</div>
+                    <div class="d-flex flex-wrap justify-content-between mb-4">
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox1"
+                          value="option1"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox1">
+                          Knight
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                    </div>
+                    <div class="mb-2">CLASS</div>
+                    <div class="d-flex flex-wrap justify-content-between mb-4">
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox1"
+                          value="option1"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox1">
+                          Knight
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                      <div class="form-check w-50 my-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          Mega
+                        </label>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-7 col-md-8 col-lg-9 col-12">
+              <div class="row">
+                <div class="col d-flex align-items-center">
+                  <span class="me-3">257 results</span>
+                  <div class="group-action d-flex">
+                    <button class="btn btn-outline-light me-3" role="button">
+                      Refresh
+                    </button>
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-outline-light dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Low price
+                      </button>
+                      <ul
+                        class="dropdown-menu bg-041311 light"
+                        aria-labelledby="dropdownMenuButton1"
+                      >
+                        <li class="px-4 py-2">
+                          <a class="dropdown-item text-light" href="#"
+                            >Low price</a
+                          >
+                        </li>
+                        <li class="px-4 py-2">
+                          <a class="dropdown-item text-light" href="#"
+                            >High price</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 my-4">
+                  <div class="card bg-01100f77 position-relative">
+                    <img
+                      class="hero-icon"
+                      src="./assets/images/elf.a77c9c63.png"
+                    />
+                    <img
+                      class="hero-icon"
+                      src="./assets/images/assassin.a85f86f8.png"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Common</h5>
+                      <p class="card-subtitle mb-3 text-muted text-center">
+                        #2698515859
+                      </p>
+                      <h6 class="card-subtitle mb-3 text-muted text-center">
+                        ChikenBomer
+                      </h6>
+                      <img
+                        src="./assets/images/45.de3ee827.webp"
+                        class="card-img-top"
+                        alt="mystery_box"
+                        height="190"
+                        width="190"
+                      />
+                      <h5
+                        class="
+                          d-flex
+                          justify-content-center
+                          align-items-center
+                          mt-3
+                        "
+                      >
+                        <span class="me-2">34.8</span>
+                        <img
+                          src="./assets/images/he_coin.bb3bc75d.svg"
+                          width="28"
+                          height="28"
+                        />
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 my-4">
+                  <div class="card bg-01100f77 position-relative">
+                    <img
+                      class="hero-icon"
+                      src="./assets/images/elf.a77c9c63.png"
+                    />
+                    <img
+                      class="hero-icon"
+                      src="./assets/images/assassin.a85f86f8.png"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Common</h5>
+                      <p class="card-subtitle mb-3 text-muted text-center">
+                        #2698515859
+                      </p>
+                      <h6 class="card-subtitle mb-3 text-muted text-center">
+                        ChikenBomer
+                      </h6>
+                      <img
+                        src="./assets/images/45.de3ee827.webp"
+                        class="card-img-top"
+                        alt="mystery_box"
+                        height="190"
+                        width="190"
+                      />
+                      <h5
+                        class="
+                          d-flex
+                          justify-content-center
+                          align-items-center
+                          mt-3
+                        "
+                      >
+                        <span class="me-2">34.8</span>
+                        <img
+                          src="./assets/images/he_coin.bb3bc75d.svg"
+                          width="28"
+                          height="28"
+                        />
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 my-4">
+                  <div class="card bg-01100f77 position-relative">
+                    <img
+                      class="hero-icon"
+                      src="./assets/images/elf.a77c9c63.png"
+                    />
+                    <img
+                      class="hero-icon"
+                      src="./assets/images/assassin.a85f86f8.png"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Common</h5>
+                      <p class="card-subtitle mb-3 text-muted text-center">
+                        #2698515859
+                      </p>
+                      <h6 class="card-subtitle mb-3 text-muted text-center">
+                        ChikenBomer
+                      </h6>
+                      <img
+                        src="./assets/images/45.de3ee827.webp"
+                        class="card-img-top"
+                        alt="mystery_box"
+                        height="190"
+                        width="190"
+                      />
+                      <h5
+                        class="
+                          d-flex
+                          justify-content-center
+                          align-items-center
+                          mt-3
+                        "
+                      >
+                        <span class="me-2">34.8</span>
+                        <img
+                          src="./assets/images/he_coin.bb3bc75d.svg"
+                          width="28"
+                          height="28"
+                        />
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 my-4">
+                  <div class="card bg-01100f77 position-relative">
+                    <img
+                      class="hero-icon"
+                      src="./assets/images/elf.a77c9c63.png"
+                    />
+                    <img
+                      class="hero-icon"
+                      src="./assets/images/assassin.a85f86f8.png"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Common</h5>
+                      <p class="card-subtitle mb-3 text-muted text-center">
+                        #2698515859
+                      </p>
+                      <h6 class="card-subtitle mb-3 text-muted text-center">
+                        ChikenBomer
+                      </h6>
+                      <img
+                        src="./assets/images/45.de3ee827.webp"
+                        class="card-img-top"
+                        alt="mystery_box"
+                        height="190"
+                        width="190"
+                      />
+                      <h5
+                        class="
+                          d-flex
+                          justify-content-center
+                          align-items-center
+                          mt-3
+                        "
+                      >
+                        <span class="me-2">34.8</span>
+                        <img
+                          src="./assets/images/he_coin.bb3bc75d.svg"
+                          width="28"
+                          height="28"
+                        />
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 my-4">
+                  <div class="card bg-01100f77 position-relative">
+                    <img
+                      class="hero-icon"
+                      src="./assets/images/elf.a77c9c63.png"
+                    />
+                    <img
+                      class="hero-icon"
+                      src="./assets/images/assassin.a85f86f8.png"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Common</h5>
+                      <p class="card-subtitle mb-3 text-muted text-center">
+                        #2698515859
+                      </p>
+                      <h6 class="card-subtitle mb-3 text-muted text-center">
+                        ChikenBomer
+                      </h6>
+                      <img
+                        src="./assets/images/45.de3ee827.webp"
+                        class="card-img-top"
+                        alt="mystery_box"
+                        height="190"
+                        width="190"
+                      />
+                      <h5
+                        class="
+                          d-flex
+                          justify-content-center
+                          align-items-center
+                          mt-3
+                        "
+                      >
+                        <span class="me-2">34.8</span>
+                        <img
+                          src="./assets/images/he_coin.bb3bc75d.svg"
+                          width="28"
+                          height="28"
+                        />
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
       <div
-        class="tab-pane fade"
+        class="tab-pane fade chets"
         id="nav-profile"
         role="tabpanel"
         aria-labelledby="nav-profile-tab"
       >
-        <div class="container-fluid !direction !spacing">
-          <div class="row my-4">
+        <div class="container-fluid !direction !spacing px-4">
+          <div class="row mt-4">
             <div class="col d-flex justify-content-between align-items-center">
               <span>257 results</span>
               <div class="group-action d-flex">
@@ -138,30 +744,219 @@
                     Low price
                   </button>
                   <ul
-                    class="dropdown-menu"
+                    class="dropdown-menu bg-041311 light"
                     aria-labelledby="dropdownMenuButton1"
                   >
-                    <li><a class="dropdown-item" href="#">Low price</a></li>
-                    <li><a class="dropdown-item" href="#">High price</a></li>
+                    <li class="px-4 py-2">
+                      <a class="dropdown-item text-light" href="#">Low price</a>
+                    </li>
+                    <li class="px-4 py-2">
+                      <a class="dropdown-item text-light" href="#"
+                        >High price</a
+                      >
+                    </li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div class="card bg-01100f77 border" style="width: 18rem">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 my-4">
+              <div class="card bg-01100f77 border border-043c3877">
                 <div class="card-body">
                   <h6 class="card-subtitle mb-5 text-muted text-center">
                     #2698515859
                   </h6>
-                  <img
-                    src="./assets/images/mystery_box.3f9ab968.png"
-                    class="card-img-top"
-                    alt="mystery_box"
-                    height="160"
-                    width="160"
-                  />
+                  <div class="chet-img">
+                    <img
+                      src="./assets/images/mystery_box.3f9ab968.png"
+                      class="card-img-top"
+                      alt="mystery_box"
+                      height="160"
+                    />
+                  </div>
+                  <h5 class="card-text text-center mt-5">Genesis Rare Chest</h5>
+                  <h2 class="d-flex justify-content-center align-items-center">
+                    <span class="me-2">1e+22</span>
+                    <img
+                      src="./assets/images/he_coin.bb3bc75d.svg"
+                      width="28"
+                      height="28"
+                    />
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 my-4">
+              <div class="card bg-01100f77 border border-043c3877">
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-5 text-muted text-center">
+                    #2698515859
+                  </h6>
+                  <div class="chet-img">
+                    <img
+                      src="./assets/images/mystery_box.3f9ab968.png"
+                      class="card-img-top"
+                      alt="mystery_box"
+                      height="160"
+                    />
+                  </div>
+                  <h5 class="card-text text-center mt-5">Genesis Rare Chest</h5>
+                  <h2 class="d-flex justify-content-center align-items-center">
+                    <span class="me-2">1e+22</span>
+                    <img
+                      src="./assets/images/he_coin.bb3bc75d.svg"
+                      width="28"
+                      height="28"
+                    />
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 my-4">
+              <div class="card bg-01100f77 border border-043c3877">
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-5 text-muted text-center">
+                    #2698515859
+                  </h6>
+                  <div class="chet-img">
+                    <img
+                      src="./assets/images/mystery_box.3f9ab968.png"
+                      class="card-img-top"
+                      alt="mystery_box"
+                      height="160"
+                    />
+                  </div>
+                  <h5 class="card-text text-center mt-5">Genesis Rare Chest</h5>
+                  <h2 class="d-flex justify-content-center align-items-center">
+                    <span class="me-2">1e+22</span>
+                    <img
+                      src="./assets/images/he_coin.bb3bc75d.svg"
+                      width="28"
+                      height="28"
+                    />
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 my-4">
+              <div class="card bg-01100f77 border border-043c3877">
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-5 text-muted text-center">
+                    #2698515859
+                  </h6>
+                  <div class="chet-img">
+                    <img
+                      src="./assets/images/mystery_box.3f9ab968.png"
+                      class="card-img-top"
+                      alt="mystery_box"
+                      height="160"
+                    />
+                  </div>
+                  <h5 class="card-text text-center mt-5">Genesis Rare Chest</h5>
+                  <h2 class="d-flex justify-content-center align-items-center">
+                    <span class="me-2">1e+22</span>
+                    <img
+                      src="./assets/images/he_coin.bb3bc75d.svg"
+                      width="28"
+                      height="28"
+                    />
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 my-4">
+              <div class="card bg-01100f77 border border-043c3877">
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-5 text-muted text-center">
+                    #2698515859
+                  </h6>
+                  <div class="chet-img">
+                    <img
+                      src="./assets/images/mystery_box.3f9ab968.png"
+                      class="card-img-top"
+                      alt="mystery_box"
+                      height="160"
+                    />
+                  </div>
+                  <h5 class="card-text text-center mt-5">Genesis Rare Chest</h5>
+                  <h2 class="d-flex justify-content-center align-items-center">
+                    <span class="me-2">1e+22</span>
+                    <img
+                      src="./assets/images/he_coin.bb3bc75d.svg"
+                      width="28"
+                      height="28"
+                    />
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 my-4">
+              <div class="card bg-01100f77 border border-043c3877">
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-5 text-muted text-center">
+                    #2698515859
+                  </h6>
+                  <div class="chet-img">
+                    <img
+                      src="./assets/images/mystery_box.3f9ab968.png"
+                      class="card-img-top"
+                      alt="mystery_box"
+                      height="160"
+                    />
+                  </div>
+                  <h5 class="card-text text-center mt-5">Genesis Rare Chest</h5>
+                  <h2 class="d-flex justify-content-center align-items-center">
+                    <span class="me-2">1e+22</span>
+                    <img
+                      src="./assets/images/he_coin.bb3bc75d.svg"
+                      width="28"
+                      height="28"
+                    />
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 my-4">
+              <div class="card bg-01100f77 border border-043c3877">
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-5 text-muted text-center">
+                    #2698515859
+                  </h6>
+                  <div class="chet-img">
+                    <img
+                      src="./assets/images/mystery_box.3f9ab968.png"
+                      class="card-img-top"
+                      alt="mystery_box"
+                      height="160"
+                    />
+                  </div>
+                  <h5 class="card-text text-center mt-5">Genesis Rare Chest</h5>
+                  <h2 class="d-flex justify-content-center align-items-center">
+                    <span class="me-2">1e+22</span>
+                    <img
+                      src="./assets/images/he_coin.bb3bc75d.svg"
+                      width="28"
+                      height="28"
+                    />
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 my-4">
+              <div class="card bg-01100f77 border border-043c3877">
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-5 text-muted text-center">
+                    #2698515859
+                  </h6>
+                  <div class="chet-img">
+                    <img
+                      src="./assets/images/mystery_box.3f9ab968.png"
+                      class="card-img-top"
+                      alt="mystery_box"
+                      height="160"
+                    />
+                  </div>
                   <h5 class="card-text text-center mt-5">Genesis Rare Chest</h5>
                   <h2 class="d-flex justify-content-center align-items-center">
                     <span class="me-2">1e+22</span>
