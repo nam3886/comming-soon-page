@@ -1,3 +1,6 @@
+body {
+  font-family: "Allerta", sans-serif;
+}
 .bg-02221f {
   background-color: #02221f;
 }
@@ -104,4 +107,21 @@
 .heros .form-check-input:checked {
   background-color: #a0aec0;
   border-color: #a0aec0;
+}
+.modal-countdown .countdown,
+.modal-countdown .modal-title {
+  font-weight: 700;
+}
+.modal-countdown .modal-title,
+.modal-countdown .countdown .time {
+  font-size: 24px;
+}
+.modal-countdown .countdown .time {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.modal-countdown .countdown .time .word {
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
 }
